@@ -1,17 +1,26 @@
 body{
     background-color: black;
+    
 }
 .b1{
     border-radius: 1em;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
     background-color: aqua;
+    text-align: center;
+    
+}
+
+.int{
+    font-size: 5em;
+    
 }
 .b2{
     border-radius: 1em;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
     background-color: chartreuse;
+    text-align: center;
 }
 .row{
     display: flex;
@@ -19,15 +28,15 @@ body{
 }
 .bot{
     border-radius: 1em;
-    width: 40em;
-    height: 20em;
+    width: 60em;
+    height: 30em;
     background-color: rgb(30, 0, 255);
 
 }
 .main{
     border-radius: 1em;
-    width: 50em;
-    height:40em;
+    width: 70em;
+    height:60em;
     background-color: rgb(230, 231, 230);
 }
 
@@ -55,10 +64,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5em;
+    font-size: 4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.new{
+    color: aliceblue;
+    width: 90em;
+    height: 40em;
+    background-color: rgb(157, 148, 241);
+    border-radius: 1em;
 
+    text-align: center;
+
+
+}
 
 @media(max-width:600px){}
