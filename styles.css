@@ -1,14 +1,16 @@
 body{
     background-color: black;
+    background-image: url(imm.jpg);
     
 }
 .b1{
+    background-color: #3b1f5d;
     border-radius: 1em;
     width: 30em;
     height: 30em;
-    background-color: aqua;
+    color: aliceblue;
     text-align: center;
-    
+    opacity: 0.3;
 }
 
 .int{
@@ -16,33 +18,41 @@ body{
     
 }
 .b2{
+    background-color: #3b1f5d;
     border-radius: 1em;
     width: 30em;
     height: 30em;
-    background-color: chartreuse;
+    color: aliceblue;
     text-align: center;
+    opacity: 0.3;
 }
 .row{
     display: flex;
     flex-direction: row;
 }
 .bot{
+    background-color: #3b1f5d;
     border-radius: 1em;
     width: 60em;
     height: 30em;
-    background-color: rgb(30, 0, 255);
+    color: aliceblue;
+    opacity: 0.3;
+    
 
 }
 .main{
+    background-color: #3b1f5d;
     border-radius: 1em;
     width: 70em;
     height:60em;
-    background-color: rgb(230, 231, 230);
+    color: aliceblue;
+    opacity: 0.3;
 }
 
 .adjust{
     display: flex;
     flex-direction: row;
+    
 }
 
 .nav{
@@ -70,17 +80,14 @@ body{
 
 .new{
     color: aliceblue;
-    width: 90em;
+    width: 118em;
     height: 40em;
-    background-color: rgb(157, 148, 241);
+    background-color: #442063;
     border-radius: 1em;
-
+    opacity: 0.3;
     text-align: center;
 
 
 }
 
 @media(max-width:600px){}
-
-
-
