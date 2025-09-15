@@ -80,7 +80,7 @@ body{
 
 .new{
     color: aliceblue;
-    width: 130em;
+    width: 120em;
     height: 40em;
     background-color: #442063;
     border-radius: 1em;
@@ -91,3 +91,4 @@ body{
 }
 
 @media(max-width:600px){}
+
