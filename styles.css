@@ -79,6 +79,7 @@ body{
 }
 
 .new{
+    display: flex;
     color: aliceblue;
     width: 130em;
     height: 40em;
@@ -91,5 +92,6 @@ body{
 }
 
 @media(max-width:600px){}
+
 
 
