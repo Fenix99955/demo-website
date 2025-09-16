@@ -10,7 +10,7 @@ body{
     height: 30em;
     color: aliceblue;
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.3;u
 }
 
 .int{
@@ -79,7 +79,6 @@ body{
 }
 
 .new{
-    display: flex;
     color: aliceblue;
     width: 130em;
     height: 40em;
@@ -92,6 +91,7 @@ body{
 }
 
 @media(max-width:600px){}
+
 
 
 
