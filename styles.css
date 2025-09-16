@@ -1,4 +1,5 @@
 body{
+    zoom: 80%;
     background-color: black;
     background-image: url(imm.jpg);
     
@@ -6,7 +7,7 @@ body{
 .b1{
     background-color: #3b1f5d;
     border-radius: 1em;
-    width: 30em;
+    width: 35.25em;
     height: 30em;
     color: aliceblue;
     text-align: center;
@@ -20,7 +21,7 @@ body{
 .b2{
     background-color: #3b1f5d;
     border-radius: 1em;
-    width: 30em;
+    width: 35.25em;
     height: 30em;
     color: aliceblue;
     text-align: center;
@@ -33,7 +34,7 @@ body{
 .bot{
     background-color: #3b1f5d;
     border-radius: 1em;
-    width: 60em;
+    width: 70.5em;
     height: 30em;
     color: aliceblue;
     opacity: 0.3;
@@ -43,7 +44,7 @@ body{
 .main{
     background-color: #3b1f5d;
     border-radius: 1em;
-    width: 70em;
+    width: 70.5em;
     height:60em;
     color: aliceblue;
     opacity: 0.3;
@@ -55,6 +56,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 130;
+    max-width: 130;
     
 }
 
@@ -83,7 +85,7 @@ body{
 
 .new{
     color: aliceblue;
-    width: 130em;
+    width: 141em;
     height: 40em;
     background-color: #442063;
     border-radius: 1em;
@@ -115,7 +117,7 @@ body{
   font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
+
 .icon-bar a:hover {
   background-color: #000;
 }
@@ -143,4 +145,10 @@ body{
 .youtube {
   background: #bb0000;
   color: white;
+}
+@media (max-width: 130em) {
+  .column {
+    max-width: 100%; 
+    padding: 19px;
+  }
 }
