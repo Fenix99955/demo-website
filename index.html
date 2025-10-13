@@ -3,59 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Alivo Das - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-
-    <div class="column">
-
-        <div class="adjust" id="HOME">
-            <div class="main">
-                <nav class="navbar">
-                    <ul>
-                        <li class="nav"><a href="#HOME">HOME</a></li>
-                        <li class="nav"><a href="#ACHIEVEMENTS">ACHIEVEMENTS</a></li>
-                        <li class="nav"><a href="#PROJECTS">PROJECTS</a></li>
-                
-                    </ul>
-                </nav>
-                <a class="wel">18 y/o old Full stack Developer ,Loves to turn Crazy Ideas into Reality </a>
-            </div>
-            <div class="sub">
-                <div class="row">
-                    <div class="b1"><a class="int">   Student of Adamas University</a> </div>
-                    <div class="b2"><a class="int">python , javascript , C , Html , css</a></div>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero" id="HOME">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#HOME">Home</a></li>
+                    <li><a href="#ABOUT">About</a></li>
+                    <li><a href="#ACHIEVEMENTS">Achievements</a></li>
+                    <li><a href="#PROJECTS">Projects</a></li>
+                    <li><a href="#CONTACT">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <img src="profile.jpg" alt="Alivo Das" class="profile-img">
+                <h1>Alivo Das</h1>
+                <p class="subtitle">Full Stack Developer | Python Enthusiast | Creative Problem Solver</p>
+                <p class="hero-desc">
+                    18 y/o developer passionate about building impactful solutions and turning ideas into reality.
+                </p>
+                <div class="hero-social">
+                    <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/alivo-das-7b9b63381/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/Fenix99955" aria-label="GitHub"><i class="fa fa-github"></i></a>
                 </div>
-                <div class="bot"><a class="int">Member of Cy-coders club</a></div>
             </div>
+        </header>
 
-        </div>
+        <main>
+            <!-- About Section -->
+            <section id="ABOUT" class="about section">
+                <h2>About Me</h2>
+                <p>
+                    I am a Computer Science student at Adamas University and an active member of the Cy-coders club.
+                    Skilled in Python, JavaScript, C, HTML, and CSS, I enjoy collaborating on innovative projects and learning new technologies.
+                </p>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C</li>
+                    <li>HTML &amp; CSS</li>
+                    <li>Flask</li>
+                    <li>React (Basics)</li>
+                </ul>
+            </section>
 
+            <!-- Achievements Section -->
+            <section id="ACHIEVEMENTS" class="section">
+                <h2>Achievements</h2>
+                <ul class="achievements-list">
+                    <li>Winner, University Hackathon 2024</li>
+                    <li>Top 10, National Coding Challenge 2023</li>
+                    <li>Published Python project on GitHub with 500+ stars</li>
+                    <li>Active contributor to open-source projects</li>
+                </ul>
+            </section>
 
+            <!-- Projects Section -->
+            <section id="PROJECTS" class="section">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Weather App</h3>
+                        <p>A Flask-based web app that displays real-time weather data for any city.</p>
+                        <a href="https://github.com/Fenix99955/weather-app" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>News Aggregator</h3>
+                        <p>Aggregates and displays news from multiple sources using Python and APIs.</p>
+                        <a href="https://github.com/Fenix99955/news-aggregator" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>This responsive portfolio built with HTML, CSS, and a touch of JavaScript.</p>
+                        <a href="https://github.com/Fenix99955/portfolio" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-        <div class="new" id="ACHIEVEMENTS">
-            <a class="int">ACHIEVEMENTS</a>
-        </div>
-
-
-        <div class="new" id="PROJECTS">
-            <a class="int">PROJECTS</a>
-        </div>
-
-        <div class="icon-bar">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-            <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="" class="google"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/alivo-das-7b9b63381/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="https://github.com/Fenix99955" class="youtube"><i class="fa fa-github"></i></a>
-        </div>
+        <!-- Contact & Footer -->
+        <footer id="CONTACT" class="footer">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:alivodas@example.com">alivodas@example.com</a></p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/alivo-das-7b9b63381/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/Fenix99955" aria-label="GitHub"><i class="fa fa-github"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 Alivo Das. All rights reserved.</p>
+        </footer>
     </div>
-
-
-    
 </body>
 </html>
